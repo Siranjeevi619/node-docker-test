@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const PORT = 7000;
+const PORT = 3000;
 
 app.use("/", (req , res)=>{
     res.send("Hello Node! ");
