@@ -14,6 +14,6 @@ const users = [
     { id: 13, name: "Mike", email: "mike@example.com", isAdmin: false },
     { id: 14, name: "Nora", email: "nora@example.com", isAdmin: true }
   ];
-
   
-  modules.export = users
+  module.exports = users;
+  
